@@ -1,0 +1,25 @@
+.divCard{
+    display:inline-block;
+    background-color: rgba(72, 61, 139, 0.7);
+    border-radius: 10px;
+    color: white;
+    margin: 15px 100px;
+    max-width: 100%;
+    padding: 20px;    
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(7, 171, 247);
+    color: rgb(100, 2, 100);
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+.nav {
+    /* background-color: rgb(72, 61, 139, 0.7); */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.img {
+    filter: hue-rotate(100deg);
+}
+
+
+.buttonLink {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Color de fondo del botón (puedes cambiarlo) */
+    color: #fff; /* Color del texto del botón (puedes cambiarlo) */
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px; /* Opcional: Agrega espacio entre los botones */
+  }
+  
