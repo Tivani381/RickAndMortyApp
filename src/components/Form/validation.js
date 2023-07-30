@@ -16,7 +16,7 @@ export const validate = (userData)=> {
     else if(!regexPassword.test(userData.password)) {
         errors.password = 'La contraseña debe tener al menos un numero'
     }
-    else if(!userData.password.length >= 6 && userData.password.length <= 10) {
+    else if(!userData.password.length < 6 && userData.password.length > 10) {
         errors.password = 'La contraseña debe tener entre 6 y 10 caracteres'
     }
 

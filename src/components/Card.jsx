@@ -38,8 +38,7 @@ function Card({id, name, species, gender, image, onClose, deleteFavorite, addFav
             )
          }
          <button className={css.btn} onClick={() => {onClose(id)}}>X</button>
-         <Link to={'/detail/id'}> 
-                   {/* puede ir detail/${id} */}
+         <Link to={`/detail/${id}`}> 
          <h2>{name}</h2>
          </Link>
          <h2>{species}</h2>
