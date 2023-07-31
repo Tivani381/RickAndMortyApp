@@ -1,16 +1,15 @@
 import Card from '../components/Card';
-import styled from 'styled-components'
-
-const Container = styled.div`
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-`
+import css from '../components/style modules/Cards.module.css'
 
 function Cards(props) {
    const { characters , onClose } = props;
+
+if (!Array.isArray(characters)) {
+    return null;
+  }
+
    return (
-      <Container>
+      <div className={css.div}>
          {
             characters.map((character)=> {
                return (
@@ -26,7 +25,7 @@ function Cards(props) {
                )
             })
          }
-      </Container>
+      </div>
    )
 }
 
